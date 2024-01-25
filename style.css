@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+        font-family: "Source Serif 4";
+}
+
+body {
+    font-size: 1.41rem;
+        line-height: normal;
+        color: #a54328;
+}
+
+main{
+    max-width: 32rem;
+        padding: 5.3rem 3.7rem;
+        margin-inline: auto;
+
+    display: flex;
+        flex-direction: column;
+        gap: 3.4rem;
+}
+
+.recipe{
+    max-width: 30.8rem;
+    display: flex;
+        flex-direction: column;
+        gap: 3.7rem;
+}
+
+.recipe h1{
+    font-size: 2.55rem;
+}
+
+.ingredients {
+    width: 31.9rem;
+}
+
+.ingredients h2 {
+  margin-bottom: 2rem;  
+}
+
+.ingredients li{
+    margin-left: 2.2rem;
+}
+
+.ingredients button {
+    margin-top: 1.7rem;
+        width: 94.24px;
+        height: 31.886px; 
+        padding: 1.1rem;
+        background-color: #A54328;
+        border: none;
+        cursor: pointer;
+        border-radius: 0.5rem;
+
+    font-size: 1rem;
+        color: #FFFF;
+}
+
+.ingredients button:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+
