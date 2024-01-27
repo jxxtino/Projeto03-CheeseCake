@@ -16,7 +16,9 @@ Refazendo o projeto de uma página de receitas da trilha Explorer da RocketSeat
 - Mudança de tema
 - Funcionalidade de reportar 
 
+## Observação
 
+Como a fonte principal não foi encontrada no google fonts tive que alterar o tamanho de alguns elementos, para assim ficar parecido com o modelo
 
 
 
