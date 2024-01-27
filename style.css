@@ -16,7 +16,7 @@ body {
 }
 
 main{
-    max-width: 32rem;
+    width: 39.3rem;
         padding: 5.3rem 3.7rem;
         margin-inline: auto;
 
@@ -26,7 +26,7 @@ main{
 }
 
 .recipe{
-    max-width: 30.8rem;
+    width: 30.8rem;
     display: flex;
         flex-direction: column;
         gap: 3.7rem;
@@ -37,7 +37,7 @@ main{
 }
 
 .ingredients {
-    width: 31.9rem;
+    width: 319px;
 }
 
 .ingredients h2 {
@@ -67,4 +67,56 @@ main{
     transition: 0.7s;
 }
 
+@media (min-width: 1000px){
 
+    :root{
+        font-size: 62.5%;
+    }
+
+    main {
+        width: 1149px;  
+        padding: 0;
+        margin: 9.5rem auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        font-size: 2rem;
+        line-height: normal;
+        }
+
+    .recipe {
+        width: 435px;
+        gap: 5.5rem;
+    }
+
+    .recipe h1, h2 {
+        font-size: 40px;
+    }
+
+    .recipe img {
+        width: 41.1rem;
+
+    }
+    
+    .ingredients {
+        width: 525px;
+    }
+
+    .ingredients li {
+        margin-left: 2.6rem;
+    }
+
+    .ingredients button {
+        margin-top: 2.4rem;
+        width: 13.3rem;
+        height: 4.5rem;
+        padding: 1.6rem;
+        border-radius: 0.8rem;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+        font-size: 1.4rem;
+    }
+}
